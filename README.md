@@ -1,1 +1,1 @@
-# PostgreSQL queries for university model (chairs, groups, students) 
+### PostgreSQL queries for university model (chairs, groups, students) 
