@@ -16,8 +16,7 @@ WHERE group_id =
 	
 SELECT co.name, st.first_name, st.last_name
 FROM courses AS co
-INNER JOIN courses_students AS cost
+INNER JOIN courses_students AS junc
 	ON co.course_id = junc.course_id
 INNER JOIN students AS st
 	ON st.student_id = junc.student_id;
-	 
